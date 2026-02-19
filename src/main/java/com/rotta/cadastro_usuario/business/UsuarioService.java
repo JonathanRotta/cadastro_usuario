@@ -13,7 +13,7 @@ public class UsuarioService {
         this.repository = repository;
     }
 
-    public void SalvarUsuario(Usuario usuario){
+    public void salvarUsuario(Usuario usuario){
         repository.saveAndFlush(usuario);
     }
 
